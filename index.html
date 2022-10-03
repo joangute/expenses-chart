@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+  <main>
+
+    <div class="header flex">
+      <div class="balance grid">
+        <h2>My balance</h2>
+        <span class="total_balance">$921.48</span>
+      </div>
+      <img src="./images/logo.svg" alt="logo">
+    </div>
+
+    <div class="chart">      
+      <h1>Spending - Last 7 days</h1>
+      <div class="week">
+        <div class="day_container"><span class="bar"></span><span class="day"></span></div>
+        <div class="day_container"><span class="bar"></span><span class="day"></span></div>
+        <div class="day_container"><span class="bar"></span><span class="day"></span></div>
+        <div class="day_container"><span class="bar"></span><span class="day"></span></div>
+        <div class="day_container"><span class="bar"></span><span class="day"></span></div>
+        <div class="day_container"><span class="bar"></span><span class="day"></span></div>
+        <div class="day_container"><span class="bar"></span><span class="day"></span></div>
+      </div>
+
+      <div class="flex bottom">
+        <div class="grid">
+          <h2>Total this month</h2>
+          <span class="total_month">$478.33</span>
+        </div>
+        <div class="grid last_month">
+          <span class="percentage">+2.4%</span>
+          <h2>from last month</h2>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+<script src="./js/expensesChart.js"></script>
+</body>
+</html>
